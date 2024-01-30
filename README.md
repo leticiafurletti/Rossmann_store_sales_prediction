@@ -28,7 +28,7 @@ https://www.kaggle.com/c/rossmann-store-sales/overview/description
 Foi combinado com o CFO que será criado uma API que será utilizada para retornar as previsões das lojas. Essa API irá utilizar o modelo de Machine Learning desenvolvido para realizar a previsão. E então seria entregue um Bot dentro do aplicativo Telegram, facilitando assim que o CFO verifique a previsão das lojas independente do local em que ele esteja.
 
 ## Passos para a resolução do problema:
-![](crisp_ds.png)
+![crisp_ds](crisp_ds.png)
 
 ## Passos do CRISP-DS:
 1. **Problema de Negócio:** Esta etapa tem como objtive receber o problema de negócio que será resolvido. É nesta etapa que é recebido a pergutna ou o pedido feito pelo dono do problema, que no caso deste projeto, é o CFO da rede Rossmann.
