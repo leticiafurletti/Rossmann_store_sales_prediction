@@ -1,6 +1,6 @@
 ## Rossmann Sales Forecast
 
-![rossmann_logo](rossmann_logo.png) width=500"px"
+![rossmann_logo](rossmann_logo.png) 
 
 
 A Rossmann opera mais de 3.000 drogarias em 7 países europeus.
@@ -200,7 +200,7 @@ Para facilitar o acesso, o modelo foi implantado no serviço em nuvem Render, co
 Para fazer a consulta, basta enviar uma mensagem no formato "/store_number" (ex: /23). O Bot responderá com o valor previsto para as próximas seis semanas, ou caso o número da loja não exista ou qualquer outro tipo de mensagem, apresentará a mensagem "Store Not Available".
 
 <div align="center">
-<img src="final_telegram_bot_video.gif" width=100"px">
+<img src="final_telegram_bot_video.gif" width=70"px">
 </div>
 </br>
 
