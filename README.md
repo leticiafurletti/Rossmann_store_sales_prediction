@@ -1,7 +1,7 @@
 ## Rossmann Sales Forecast
 
 ![rossmann_logo](rossmann_logo.png)
-A Rossmann opera mais de 3.000 drogarias em 7 países europeus. 
+A Rossmann opera mais de 3.000 drogarias em 7 países europeus.
 Atualmente, os gerentes de loja da Rossmann têm a tarefa de prever suas vendas diárias com até seis semanas de antecedência. As vendas da loja são influenciadas por muitos fatores, incluindo promoções, concorrência, feriados escolares e estaduais, sazonalidade e localidade. 
 
 ## Questão de negócio
