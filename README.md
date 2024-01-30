@@ -1,4 +1,6 @@
 ## Rossmann Sales Forecast
+
+![](img/rossmann_logo.png)
 A Rossmann opera mais de 3.000 drogarias em 7 países europeus. 
 Atualmente, os gerentes de loja da Rossmann têm a tarefa de prever suas vendas diárias com até seis semanas de antecedência. As vendas da loja são influenciadas por muitos fatores, incluindo promoções, concorrência, feriados escolares e estaduais, sazonalidade e localidade. 
 
@@ -69,14 +71,17 @@ Dessas 12 hipóteses verificadas, os 3 principais insights gerados foram:
 ## Insight 1: Lojas Abertas durante o feriado de Natal deveriam vender mais
 **Hipótese Falsa:** Lojas que ficam abertas durante o feriado de natal não vendem mais em comparação a outros feriados
 
+![](img/hypotesis1.png)
 
 ## Insight 2: Lojas Deveriam vender mais depois do dia 10 de cada mês
 **Hipótese Verdadeira:** Lojas realmente vendem mais depois do dia 10 de cada mês
 
+![](img/hypotesis2.png)
 
 ## Insight 3: Lojas deveriam vender mais no segundo semestre do ano
 **Hipótese Falsa:** Lojas vendem MENOS no segundo semestre do ano
 
+![](img/hypotesis3.png)
 
 # Modelos de Machine Learning
 Para o primeiro ciclo do projeto foram selecionados 5 algoritmos para teste, a fim de escolher o algoritmo que tivesse a melhor perfomance e o melhor custo de implementação. Foi optado pela simplicidade nessa etapa inicial, visto que era o primeiro ciclo do projeto e o objetivo principal era entregar uma solução que fosse mínimamente utilizável para a equipe de negócios e pelo CFO.
