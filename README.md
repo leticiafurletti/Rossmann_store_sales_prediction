@@ -64,7 +64,7 @@ Foi combinado com o CFO que será criado uma API que será utilizada para retorn
 # Top 3 Insights
 Foi criado um Mindmap para ajudar na construção de Hipóteses, a fim de facilitar e delimitar o escopo da etapa de análise exploratória.
 
-![](mind_map.png)
+![](mindmap.png)
 
 Através desse Mindmap, foram geradas 19 hipóteses de negócio, das quais 12 foram escolhidas para serem validadas, confirmando assim  premissas da equipe de negócios e do dono do problema, além da geração de insights para ambos.
 
