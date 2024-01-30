@@ -159,7 +159,7 @@ Como podemos observar nos dois primeiro gráficos abaixo, o modelo selecionado o
 
 Já nos dois últimos gráficos, podemos observar uma distribuição normal a cerca das previsões, o que nos inidica um bom resultado do modelo selecionado, além de podermos verificar a distribuição dos erros do modelo.
 
-![](img/performance.png)
+![](img/final_result.png)
 
 #  Resultado de Negócio
 Com o modelo selecionado e treinado, obtivemos a seguinte performance de negócio para as 5 melhores lojas:
@@ -193,8 +193,16 @@ Como resultado final, temos os seguintes cenários:
 | Pior Cenário   | \$ 285,158,456.49 |
 | Melhor Cenário | \$ 286,644,307.44 |
 
-## Distribuição das Previsões por Loja
-![](/img/business_performance.png)
+
+## Deploy do Modelo
+Para facilitar o acesso, o modelo foi implantado no serviço em nuvem Render, com os resultados completos para cada loja, que pode ser consultado através do Telegram Bot.
+
+Para fazer a consulta, basta enviar uma mensagem no formato "/store_number" (ex: /23). O Bot responderá com o valor previsto para as próximas seis semanas, ou caso o número da loja não exista ou qualquer outro tipo de mensagem, apresentará a mensagem "Store Not Available".
+
+<div align="center">
+<img src="telegram_bot_video.gif" width="250px">
+</div>
+</br>
 
 
 #  Conclusões
@@ -214,18 +222,3 @@ Outro ponto importante de destacar é que com a solução criada, o CFO pode ago
 * Implementar testes unitários nas classes e funções produzidas.
 * Criar novas *Features* para tentar melhorar a perfomance do modelo atual e de modelos futuros.
 * Aplicar técnicas de programação para melhorar o desempenho da solução criada.
-
-
-Causas:
-
-As previsões de vendas atuais apresentam muita divergência nos resultados em comparação com as vendas reais.
-As previsões de vendas atuais são baseadas apenas na experiência da equipe de negócios, de maneira muito empírica.
-As previsões de vendas atuais são feitas individualmente para cada loja, faltando sincronismo.
-As previsões de vendas atuais são limitadas às máquinas locais.
-Solução:
-
-Modelo de previsão de vendas utilizando Machine Learning.
-Arquivo .csv com as previsões de venda para cada loja.
-Fonte do problema:
-
-https://www.kaggle.com/c/rossmann-store-sales/overview/description
