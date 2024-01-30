@@ -1,6 +1,6 @@
 ## Rossmann Sales Forecast
 
-![](img/rossmann_logo.png)
+![](rossmann_logo.png)
 A Rossmann opera mais de 3.000 drogarias em 7 países europeus. 
 Atualmente, os gerentes de loja da Rossmann têm a tarefa de prever suas vendas diárias com até seis semanas de antecedência. As vendas da loja são influenciadas por muitos fatores, incluindo promoções, concorrência, feriados escolares e estaduais, sazonalidade e localidade. 
 
@@ -26,7 +26,7 @@ https://www.kaggle.com/c/rossmann-store-sales/overview/description
 Foi combinado com o CFO que será criado uma API que será utilizada para retornar as previsões das lojas. Essa API irá utilizar o modelo de Machine Learning desenvolvido para realizar a previsão. E então seria entregue um Bot dentro do aplicativo Telegram, facilitando assim que o CFO verifique a previsão das lojas independente do local em que ele esteja.
 
 ## Passos para a resolução do problema:
-![](img/crisp_ds.png)
+![](crisp_ds.png)
 
 ## Passos do CRISP-DS:
 1. **Problema de Negócio:** Esta etapa tem como objtive receber o problema de negócio que será resolvido. É nesta etapa que é recebido a pergutna ou o pedido feito pelo dono do problema, que no caso deste projeto, é o CFO da rede Rossmann.
@@ -62,7 +62,7 @@ Foi combinado com o CFO que será criado uma API que será utilizada para retorn
 # Top 3 Insights
 Foi criado um Mindmap para ajudar na construção de Hipóteses, a fim de facilitar e delimitar o escopo da etapa de análise exploratória.
 
-![](/img/mind_map.png)
+![](mind_map.png)
 
 Através desse Mindmap, foram geradas 19 hipóteses de negócio, das quais 12 foram escolhidas para serem validadas, confirmando assim  premissas da equipe de negócios e do dono do problema, além da geração de insights para ambos.
 
@@ -71,17 +71,17 @@ Dessas 12 hipóteses verificadas, os 3 principais insights gerados foram:
 ## Insight 1: Lojas Abertas durante o feriado de Natal deveriam vender mais
 **Hipótese Falsa:** Lojas que ficam abertas durante o feriado de natal não vendem mais em comparação a outros feriados
 
-![](img/hypotesis1.png)
+![](hypotesis1.png)
 
 ## Insight 2: Lojas Deveriam vender mais depois do dia 10 de cada mês
 **Hipótese Verdadeira:** Lojas realmente vendem mais depois do dia 10 de cada mês
 
-![](img/hypotesis2.png)
+![](hypotesis2.png)
 
 ## Insight 3: Lojas deveriam vender mais no segundo semestre do ano
 **Hipótese Falsa:** Lojas vendem MENOS no segundo semestre do ano
 
-![](img/hypotesis3.png)
+![](hypotesis3.png)
 
 # Modelos de Machine Learning
 Para o primeiro ciclo do projeto foram selecionados 5 algoritmos para teste, a fim de escolher o algoritmo que tivesse a melhor perfomance e o melhor custo de implementação. Foi optado pela simplicidade nessa etapa inicial, visto que era o primeiro ciclo do projeto e o objetivo principal era entregar uma solução que fosse mínimamente utilizável para a equipe de negócios e pelo CFO.
