@@ -200,7 +200,7 @@ Para facilitar o acesso, o modelo foi implantado no serviço em nuvem Render, co
 Para fazer a consulta, basta enviar uma mensagem no formato "/store_number" (ex: /23). O Bot responderá com o valor previsto para as próximas seis semanas, ou caso o número da loja não exista ou qualquer outro tipo de mensagem, apresentará a mensagem "Store Not Available".
 
 <div align="center">
-<img src="telegram_bot_video.gif" width=10000"px">
+<img src="final_telegram_bot_video.gif" width=10000"px">
 </div>
 </br>
 
